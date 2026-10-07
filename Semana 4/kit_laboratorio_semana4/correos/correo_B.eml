@@ -1,0 +1,21 @@
+Return-Path: <notificaciones@proveedorpagos-ejemplo.test>
+Received: from out1.proveedorpagos-ejemplo.test (out1.proveedorpagos-ejemplo.test [198.51.100.25])
+	by mx.tiendanova.test with ESMTPS; Tue, 6 Oct 2026 09:02:11 -0300
+Authentication-Results: mx.tiendanova.test;
+	spf=pass smtp.mailfrom=proveedorpagos-ejemplo.test;
+	dkim=pass header.d=proveedorpagos-ejemplo.test;
+	dmarc=pass header.from=proveedorpagos-ejemplo.test
+From: "Proveedor de Pagos" <notificaciones@proveedorpagos-ejemplo.test>
+To: compras@tiendanova.test
+Subject: Tu resumen mensual de septiembre ya esta disponible
+Date: Tue, 6 Oct 2026 09:02:03 -0300
+Message-ID: <77f001@proveedorpagos-ejemplo.test>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Hola equipo de TiendaNova,</p>
+<p>Su resumen de septiembre ya esta disponible. Ingrese a su cuenta desde su panel habitual para verlo.</p>
+<p><a href="https://panel.proveedorpagos-ejemplo.test/resumenes">https://panel.proveedorpagos-ejemplo.test/resumenes</a></p>
+<p>No es necesario que responda este mensaje.</p>
+</body></html>

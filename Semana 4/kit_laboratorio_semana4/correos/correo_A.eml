@@ -1,0 +1,23 @@
+Return-Path: <bounce@mail-masivo-8812.test>
+Received: from mail-masivo-8812.test (srv9.mail-masivo-8812.test [203.0.113.77])
+	by mx.tiendanova.test with ESMTP; Tue, 6 Oct 2026 08:14:02 -0300
+Authentication-Results: mx.tiendanova.test;
+	spf=fail smtp.mailfrom=mail-masivo-8812.test;
+	dkim=none;
+	dmarc=fail header.from=banconacional-ejemplo.test
+From: "Banco Nacional Seguridad" <soporte@banconacional-ejemplo.test>
+Reply-To: ayuda.cuentas@mailfree-ar.test
+To: compras@tiendanova.test
+Subject: URGENTE: su cuenta sera bloqueada en 2 horas
+Date: Tue, 6 Oct 2026 08:13:55 -0300
+Message-ID: <a1b2c3@mail-masivo-8812.test>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Estimado cliente:</p>
+<p>Detectamos actividad inusual en su cuenta. Debe <b>verificar su identidad en las proximas 2 horas</b> o su cuenta sera bloqueada.</p>
+<p><a href="http://banconacional-ejemplo.test.verificar-cuenta.test/login">https://www.banconacional-ejemplo.test/seguridad</a></p>
+<p>Por favor responda este correo con su usuario, clave y el codigo que le llegara por SMS.</p>
+<p>Atentamente,<br>Departamento de Seguridad</p>
+</body></html>
