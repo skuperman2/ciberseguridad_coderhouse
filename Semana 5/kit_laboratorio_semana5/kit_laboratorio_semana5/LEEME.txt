@@ -1,0 +1,11 @@
+KIT DE LABORATORIO — SEMANA 5 (Criptografía práctica y gestión de identidad)
+Diplomatura en Ciberseguridad — Debian 13 sin interfaz gráfica
+
+Preparación:      bash setup_debian.sh        y luego      bash instalar_veracrypt.sh
+Actividad 1:      contrasenas/   (entropia.py, benchmark_hash.py, auditar_hashes.py)
+Actividad 2:      boveda/        (hibp_lab.txt para el análisis con KeePassXC)
+Actividad 3:      totp/          (totp.py y test_totp.py)
+Actividad 4:      passkeys/      (passkey_sim.py)
+Actividad 5:      veracrypt/ y datos_confidenciales/
+
+Todos los datos son FICTICIOS. No uses contraseñas reales en el laboratorio.
