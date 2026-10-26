@@ -1,0 +1,19 @@
+KIT DE LABORATORIO — SEMANA 6 (Seguridad en la web y conectividad)
+Diplomatura en Ciberseguridad — Debian 13 sin interfaz gráfica, una sola VM
+
+Preparación:   bash setup_debian.sh
+               sudo bash red/lab_red.sh crear       (crea laptop, cafetería, internet y sitio virtuales)
+               bash tls/crear_pki_lab.sh            (certificados de laboratorio; sitios.sh lo hace si faltan)
+               sudo bash red/sitios.sh iniciar      (arranca los sitios de prueba)
+
+Actividad 1:   huella digital       -> red/servidor_sitio.py (rutas /ip y /huella) + curl
+Actividad 2:   HTTP vs HTTPS        -> captura con tcpdump en la "cafetería" + red/analizar_trafico.py
+Actividad 3:   certificados y TLS   -> tls/ (inspeccionar_tls.sh, crear_pki_lab.sh)
+Actividad 4:   VPN                  -> vpn/vpn_lab.sh (WireGuard) + red/analizar_trafico.py
+Actividad 5:   Wi-Fi gemela maligna -> wifi/generar_captura_wifi.py y wifi/analizar_wifi.py
+Entregable:    informe/plantilla_README.md -> repositorio público "practica-wifi-segura"
+
+Limpieza:      sudo bash vpn/vpn_lab.sh bajar ; sudo bash red/lab_red.sh borrar
+
+Todo ocurre dentro de la VM: los "equipos" son espacios de red aislados. Los datos y las claves son
+FICTICIOS o de laboratorio. No captures ni analices redes que no sean tuyas.
